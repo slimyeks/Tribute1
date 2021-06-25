@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Benne&family=Open+Sans+Condensed:wght@300&family=Viaoda+Libre&family=Pacifico&display=swap");
+
+body {
+  box-sizing: border-box;
+}
+
+.image,
+.text {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+.span1 {
+  font-family: "pacifico", cursive;
+  font-style: italic;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 40px;
+}
+
+.span2 {
+  font-family: "viaoda", sans-serif;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.span3 {
+  font-family: "viaoda", sans-serif;
+  font-style: italic;
+  font-stretch: condensed;
+}
+
+.main {
+  text-align: center;
+  color: #ececec;
+  line-height: 1.2;
+}
+
+table {
+  margin: 20px;
+  font-family: "Open Sans Condensed";
+}
+th,
+td {
+  border-bottom: 1px solid #696969;
+}
+
+.sidebar {
+  text-align: center;
+}
+.sidebar h3 {
+  font-family: "viaoda", sans-serif;
+  font-size: 20px;
+}
+.endnote {
+  background-color: #eee;
+  padding: 30px;
+  text-align: center;
+}
+
+.endnote h3 {
+  font-family: "pacifico", cursive;
+  font-style: italic;
+  font-size: 20px;
+}
